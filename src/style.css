@@ -1,0 +1,244 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    line-height: 1;
+    background-image: url(./img/fundo\ portfolio.avif);
+    color: whitesmoke;
+}
+
+ol, ul, li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+
+
+.menu_lista_item{
+    display: flex;
+    flex-direction: row;
+    max-width: 1136px;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+    padding: 2rem 0;
+    text-align: end;
+    
+}
+
+.menu{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+    justify-content: flex-end;
+}
+
+.inicial_titulo img{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    border: 4px solid blue;
+    align-items: center;
+    float: right;
+}
+
+.inicial{
+    font-size: 52px;
+    font-weight: 700;
+    padding: 3rem;
+}
+
+p{
+    font-size: 32px;
+    padding: 15px;
+}
+
+.bio_titulo{
+    font-size: 32px;
+    padding: 25px;
+    margin: 15px;
+}
+
+.skills{
+    max-width: 1136px;
+    margin: 5,5 rem;
+    margin-bottom: 5.5rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 2rem;
+    padding: 80px;
+}
+
+.skills_titulo{
+    font-size: 2rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+
+.skills_box img{
+    width: 32px;
+    height: 37px;
+    align-items: ;
+}
+
+.skills_line{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+}
+
+.skills_box{
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: flex-end;
+    background-color: white;
+    padding: 1rem;
+    width: 176px;
+    height: 174px;
+}
+
+.hobbies{
+    max-width: 1136px;
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    margin: 5;
+   margin-bottom: 5rem;
+}
+
+.hobbies_box{
+    background-color: white;
+    width: 176px;
+    height: 174px;
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+    gap: 8px;
+    justify-content: end;
+
+}
+
+.hobbies_box img{
+    width: 32px;
+    height: 37px;
+}
+.hobbies_titulo{
+    font-size: 2rem;
+    font-weight: 700;
+    text-align: center; 
+}
+
+/* 
+.formacao{
+    background-color: aquamarine;
+} */
+
+.formacao_container{
+    max-width: 1446px;
+    margin: 0;
+    padding: 5rem 0;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.formacao_titulo{
+    font-size: 2rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+.formacao_curso{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 1rem;
+    width: 1440px;
+    height: 581px;
+    padding: 82px;
+
+}
+
+.formacao_curso_lista{
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+}
+
+.formacao img{
+    width: 360px;
+    height: 347px;
+    gap: 8px;
+}
+
+.formacao_curso_item_img{
+    width: 378px;
+    height: 380px;
+    font-size: 32px;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.formacao_curso_item_titulo{
+    font-size: 2rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+.contato{
+    width: 467px;
+    height: 24px;
+    gap: 22px;
+    padding: 20px;
+}
+
+.titulo_network {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    gap: 2rem;
+    font-size: 2rem;
+    font-weight: 700;
+    justify-content: center;
+    padding: 15px;
+}
+
+.network {
+    font-size: 32px;
+    text-align: center;
+    padding: 0;
+    color: whitesmoke;
+}
+
+nav a:hover{
+    color: whitesmoke;
+}
+
+.rodape{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    font-size: 52px;
+    font-weight: 700;
+}
