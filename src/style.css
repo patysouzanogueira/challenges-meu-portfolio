@@ -37,10 +37,11 @@ header{
     padding: 2rem 0;
     text-align: center;
     justify-content: end;
-
-    
 }
 
+.menu_lista_item :hover{
+    color: blue;
+}
 .menu_lista{
     display: flex;
     align-items: center;
