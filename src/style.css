@@ -135,9 +135,15 @@ p{
     display: flex;
     flex-direction: column;
     padding: 16px;
-    gap: 8px;
+    gap: 23px;
     justify-content: end;
     flex-wrap: wrap;
+}
+.hobbies_titulo{
+    font-size: 2rem;
+    font-weight: 700;
+    align-items: center;
+
 }
 
 .hobbies_box img{
@@ -145,17 +151,6 @@ p{
     height: 37px;
     flex-wrap: wrap;
 }
-.hobbies_titulo{
-    font-size: 2rem;
-    font-weight: 700;
-    text-align: center; 
-    flex-wrap: wrap;
-}
-
-/* 
-.formacao{
-    background-color: aquamarine;
-} */
 
 .formacao_container{
     max-width: 1446px;
