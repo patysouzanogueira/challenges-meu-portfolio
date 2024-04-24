@@ -20,25 +20,31 @@ a{
     color: whitesmoke;
 }
 
+header{
+    display: flex;
+    justify-content: start;
+    margin: 15px;
+}
+
 
 
 .menu_lista_item{
-    display: flex;
+    display: -webkit-inline-box;
     flex-direction: row;
     max-width: 1136px;
     margin: 0 auto;
     margin-bottom: 2rem;
     padding: 2rem 0;
-    text-align: end;
+    text-align: center;
+    justify-content: end;
+
     
 }
 
-.menu{
+.menu_lista{
     display: flex;
-    flex-direction: column;
     align-items: center;
     gap: 0.5rem;
-    justify-content: flex-end;
 }
 
 .inicial_titulo img{
@@ -82,13 +88,14 @@ p{
     font-size: 2rem;
     font-weight: 700;
     text-align: center;
+    flex-wrap: wrap;
 }
 
 
 .skills_box img{
     width: 32px;
     height: 37px;
-    align-items: ;
+    flex-wrap: wrap;
 }
 
 .skills_line{
@@ -96,6 +103,7 @@ p{
     flex-direction: row;
     align-items: center;
     gap: 1rem;
+    flex-wrap: wrap;
 }
 
 .skills_box{
@@ -107,6 +115,7 @@ p{
     padding: 1rem;
     width: 176px;
     height: 174px;
+    flex-wrap: wrap;
 }
 
 .hobbies{
@@ -116,6 +125,7 @@ p{
     gap: 2rem;
     margin: 5;
    margin-bottom: 5rem;
+   flex-wrap: wrap;
 }
 
 .hobbies_box{
@@ -127,17 +137,19 @@ p{
     padding: 16px;
     gap: 8px;
     justify-content: end;
-
+    flex-wrap: wrap;
 }
 
 .hobbies_box img{
     width: 32px;
     height: 37px;
+    flex-wrap: wrap;
 }
 .hobbies_titulo{
     font-size: 2rem;
     font-weight: 700;
     text-align: center; 
+    flex-wrap: wrap;
 }
 
 /* 
@@ -152,6 +164,7 @@ p{
     display: flex;
     flex-direction: column;
     gap: 2rem;
+    flex-wrap: wrap;
 }
 
 .formacao_titulo{
@@ -168,6 +181,7 @@ p{
     width: 1440px;
     height: 581px;
     padding: 82px;
+    flex-wrap: wrap;
 
 }
 
@@ -175,6 +189,7 @@ p{
     display: flex;
     flex-direction: row;
     gap: 0.5rem;
+    flex-wrap: wrap;
 }
 
 .formacao img{
@@ -195,21 +210,37 @@ p{
     font-size: 2rem;
     font-weight: 700;
     text-align: center;
+    flex-wrap: wrap;
 }
 
+.experiencia_container{
+    max-width: 1446px;
+    margin: 0;
+    padding: 11rem 0;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    flex-wrap: wrap;
+    font-size: 2rem;
+    font-weight: 700;
+    text-align: center;
+}
 
-
-
-
-
-
+.experiencia_container_projetos{
+    width: 278px;
+    height: 2it80px;
+    font-size: 32px;
+    text-align: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
 
 
 .contato{
     width: 467px;
     height: 24px;
-    gap: 22px;
     padding: 20px;
+    flex-wrap: wrap;
 }
 
 .titulo_network {
@@ -217,10 +248,18 @@ p{
     flex-direction: row;
     align-items: flex-end;
     gap: 2rem;
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: 700;
     justify-content: center;
     padding: 15px;
+    flex-wrap: wrap;
+}
+
+.titulo_network_item{
+    width: 100px;
+    height: 100px;
+    justify-content: space-between;
+    align-items: ;
 }
 
 .network {
@@ -228,7 +267,7 @@ p{
     text-align: center;
     padding: 0;
     color: whitesmoke;
-}
+}   flex-wrap: wrap;
 
 nav a:hover{
     color: whitesmoke;
@@ -241,4 +280,5 @@ nav a:hover{
     padding: 10px;
     font-size: 52px;
     font-weight: 700;
+    flex-wrap: wrap;
 }
